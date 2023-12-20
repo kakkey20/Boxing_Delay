@@ -13,7 +13,7 @@ pip install gymnasium[atari] → atariのインストール、ゲームによっ
 pip install gymnasium[accept-rom-license] → romのインストール
 ```
 
-## 学習方法（コードを
+## 学習方法
 ```
 python boxingdqn.py
 ```
