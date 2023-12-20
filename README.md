@@ -42,8 +42,8 @@ python boxingdqn.py
 
 ## Tutorial
 - Tutorial1
-  -- ああああ
-
+  -- CartPoleの学習コード
+  
 - Tutorial2
   -- ああああ
 
