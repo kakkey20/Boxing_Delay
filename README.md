@@ -21,4 +21,4 @@ python boxingdqn.py
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
-- [stable-baselines3](https://github.com/DLR-RM/stable-baselines3)
+- [stable-baselines3のgithub](https://github.com/DLR-RM/stable-baselines3)
