@@ -42,10 +42,10 @@ python boxingdqn.py
 
 ## Tutorial
 - Tutorial1
-  - ああああ
+  -- ああああ
 
 - Tutorial2
-  - ああああ
+  -- ああああ
 
 
 
