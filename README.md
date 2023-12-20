@@ -21,7 +21,8 @@ python boxingdqn.py
 
 ## 現状
 - stable-baselines3というものを見つけた！学習は実際にできた！やったね！
-- チュートリアル1を行った → boxingdqn.pyみたいな感じ
+- チュートリアル1を行った
+- チュートリアル2を行った
 - やるべきことが何かをはっきりさせよう！って感じなう
 
 ## やることリスト
@@ -38,6 +39,15 @@ python boxingdqn.py
 - [stable-baselines3のチュートリアル](https://github.com/araffin/rl-tutorial-jnrr19)
 - [stable-baselines3のちゃんとした辞書的な](https://stable-baselines3.readthedocs.io/en/master/index.html)
 - 
+
+## Tutorial
+- Tutorial1
+ - ああああ
+
+- Tutorial2
+ - ああああ
+
+
 
 ## Reward
 学習回数 よくわかんないやつ →  Reward
