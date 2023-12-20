@@ -19,6 +19,18 @@ pip install gymnasium[accept-rom-license] → romのインストール
 python boxingdqn.py
 ```
 
+## 現状
+- stable-baselines3というものを見つけた！学習は実際にできた！やったね！
+- やるべきことが何かをはっきりさせよう！って感じなう
+
+## やることリスト
+- チュートリアルを試してみる
+- 
+
+## 次やること
+- チュートリアルを試してみる
+
+
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
 - [stable-baselines3のgithub](https://github.com/DLR-RM/stable-baselines3)
