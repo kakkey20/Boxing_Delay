@@ -1,10 +1,11 @@
 # Boxing_Delay
 
+Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調整ができるか検証する
+
 ## 使用環境（暫定であり、この環境が正しいかどうかの確証はない）
 
 - python=3.10.*
 
-Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調整ができるか検証する
 
 ## Gymnasiumのインストール
 ```
