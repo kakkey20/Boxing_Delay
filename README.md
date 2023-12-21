@@ -40,8 +40,6 @@ python boxingdqn.py
 - Gpuただしくつかえているか確認（金曜）→ 詳しくは辞書のInstallation
 
 ## 次やること
-  - evaluate_policyというライブラリの解析
-  - std_reward, mean_rewardとは
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
