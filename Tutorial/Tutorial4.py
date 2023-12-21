@@ -6,6 +6,7 @@ from stable_baselines3.common.evaluation import evaluate_policy
 
 eval_env = gym.make("Pendulum-v1")
 
+# SACモデルのトレーニング
 default_model = SAC(
     "MlpPolicy",
     "Pendulum-v1",
@@ -15,9 +16,12 @@ default_model = SAC(
     policy_kwargs=dict(net_arch=[64, 64]),
 ).learn(8000)
 
+# 平均報酬と標準偏差
 mean_reward, std_reward = evaluate_policy(default_model, eval_env, n_eval_episodes=100)
 print(f"mean_reward:{mean_reward:.2f} +/- {std_reward:.2f}")
 
+# チューニングされたモデル
+# 学習率、ニューロン数、レイヤー数、オプティマイザーなどのハイパーパラメーター調整済み
 tuned_model = SAC(
     "MlpPolicy",
     "Pendulum-v1",
