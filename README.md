@@ -40,6 +40,7 @@ python boxingdqn.py
 
 ## 次やること
 - チュートリアル2の詳細な解析
+- Boxingじゃなくていいから、CartPoleかなんかで、必要な機能を実際に実装する
 
 ## チュートリアルから読み取れるBoxingAIに必要な機能
 - Tutorial1
