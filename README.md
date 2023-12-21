@@ -32,10 +32,10 @@ python boxingdqn.py
 - Boxingの学習を行って、Tutorial1のように報酬の違いを確認してみる（下にRewardとあるのでそこに記載）
 - チュートリアルコードの詳細な解析
 - チュートリアル1コードの詳細な解析
- -- evaluate_policyというライブラリの解析
- -- std_reward, mean_rewardとは
- -- modelはPPO以外にどんなものがあるのか
- -- MlpPolicyとは
+  -- evaluate_policyというライブラリの解析
+  -- std_reward, mean_rewardとは
+  -- modelはPPO以外にどんなものがあるのか
+  -- MlpPolicyとは
 -- 参考文献の辞書的なやつの解析
 
 ## 次やること
