@@ -5,12 +5,18 @@ stable_baselines3: 強化学習アルゴリズムの実装を含むPythonライ�
 
 2. 環境の設定:
 CartPole-v1環境を作成。これは、棒が倒れないようにカートを動かすタスク。
+env = gym.make("CartPole-v1")
 
 3. PPOモデルの設定:
 Proximal Policy Optimization（PPO）アルゴリズムを使用して、MlpPolicy（多層パーセプトロンポリシー）を用いてモデルを初期化。
+model = PPO(MlpPolicy, env, verbose=0)
+MlpPolicyを選んだのは、CartPoleタスクの観測が画像ではなく特徴ベクトルだから
+MlpPolicyは、Mlp（Multilayer perceptron）とは多層パーセプトロンで、シンプルなニューラルネットワークです。執筆時のリンク
+他には、CnnPolicy,CnnLstmPolicyなどがある。
 
 4. 評価関数の定義:
 evaluate関数は、指定されたエピソード数にわたってモデルを評価し、平均報酬を計算する。
+def evaluate
 
 5. モデルの評価とトレーニング:
 トレーニング前後のモデルの性能をevaluate_policy関数で評価。
