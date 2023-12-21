@@ -1,12 +1,12 @@
 Tutorial結構使えること書いてあるやもしれぬ
 
 Policy Networks一覧
-MlpPolicy
-MlpLstmPolicy
-MlpLnLstmPolicy
-CnnPolicy
-CnnLstmPolicy
-CnnLnLstmPolicy
+MlpPolicy	Policy object that implements actor critic, using a MLP (2 layers of 64)
+MlpLstmPolicy	Policy object that implements actor critic, using LSTMs with a MLP feature extraction
+MlpLnLstmPolicy	Policy object that implements actor critic, using a layer normalized LSTMs with a MLP feature extraction
+CnnPolicy	Policy object that implements actor critic, using a CNN (the nature CNN)
+CnnLstmPolicy	Policy object that implements actor critic, using LSTMs with a CNN feature extraction
+CnnLnLstmPolicy	Policy object that implements actor critic, using a layer normalized LSTMs with a CNN feature extraction
 
 RLアルゴリズム一覧
 A2C
