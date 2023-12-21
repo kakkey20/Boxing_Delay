@@ -48,7 +48,7 @@ python boxingdqn.py
 - [stable-baselines3のちゃんとした辞書的な](https://stable-baselines3.readthedocs.io/en/master/index.html)
 
 ## Reward
-| 学習回数 | 評価（モデルのプレイ回数）| Reward（平均報酬）|
+| 学習回数 | 評価（モデルのプレイ回数）| std_reward +/- mean_reward|
 | ---- | ---- | ---- |
 | 1 | 1 | -43.00 +/- 0.00 |
 | 100 |10|~~~|
