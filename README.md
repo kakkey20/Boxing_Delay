@@ -54,7 +54,7 @@ python boxingdqn.py
 - Tutorial3　→　マルチプロセス関連なのでとりあえず必要なし
 - Tutorial4
   - ハイパーパラメータの調整（実際にはやってないが、少し詳細あり）
-
+  - カスタムコールバック（悪い学習をしないように、セーブ機能をつけれる）→ いらないかも
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
 - [stable-baselines3のgithub](https://github.com/DLR-RM/stable-baselines3)
