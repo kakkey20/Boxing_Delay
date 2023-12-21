@@ -9,7 +9,7 @@ from stable_baselines3.common.evaluation import evaluate_policy
 # env = gym.make("ALE/Boxing-v5")
 env = gym.make("ALE/Boxing-v5", render_mode='human')
 model = PPO(MlpPolicy, env, verbose=0)
-verbose=1の場合、training information、2の場合、tensorflow debugを渡す。
+# verbose=1の場合、training information、2の場合、tensorflow debugを渡す。
 
 model.learn(total_timesteps=10_000)
 mean_reward, std_reward = evaluate_policy(model, env, n_eval_episodes=100)
