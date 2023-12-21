@@ -49,6 +49,7 @@ python boxingdqn.py
   - Video関数（録画方法、一旦放置いずれやる）
 - Tutorial2
   - モデルの保存方法、ロード方法
+  - カスタム環境ラッパーの作成 → これを利用して遅延を入れることができるかも
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
