@@ -50,6 +50,7 @@ python boxingdqn.py
 - Tutorial2
   - モデルの保存方法、ロード方法
   - カスタム環境ラッパーの作成（行動の正規化や、時間制限機能の追加） → これを利用して遅延を入れることができるかもs
+- Tutorial3　→　マルチプロセス関連なのでとりあえず必要なし
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
