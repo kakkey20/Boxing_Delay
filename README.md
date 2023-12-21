@@ -31,14 +31,15 @@ python boxingdqn.py
 ## やることリスト
 - Boxingの学習を行って、Tutorial1のように報酬の違いを確認してみる（下にRewardとあるのでそこに記載）
 - チュートリアルコードの詳細な解析
+- チュートリアル1コードの詳細な解析
+-- evaluate_policyというライブラリの解析
+-- std_reward, mean_rewardとは
+-- modelはPPO以外にどんなものがあるのか
+-- MlpPolicyとは
+-- 参考文献の辞書的なやつの解析
 
 ## 次やること
 - Boxingの学習を行って、Tutorial1のように報酬の違いを確認してみる（下にRewardとあるのでそこに記載）　今やっている
-- evaluate_policyというライブラリの解析
-- std_reward, mean_rewardとは
-- modelはPPO以外にどんなものがあるのか
-- MlpPolicyとは
-- 参考文献の辞書的なやつの解析
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
