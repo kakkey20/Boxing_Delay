@@ -30,18 +30,21 @@ python boxingdqn.py
 
 ## やることリスト
 - Boxingの学習を行って、Tutorial1のように報酬の違いを確認してみる（下にRewardとあるのでそこに記載）
+- チュートリアルコードの詳細な解析
 
 ## 次やること
 - Boxingの学習を行って、Tutorial1のように報酬の違いを確認してみる（下にRewardとあるのでそこに記載）　今やっている
-- チュートリアルで必要な機能がどれかを考えてみる
-
+- evaluate_policyというライブラリの解析
+- std_reward, mean_rewardとは
+- modelはPPO以外にどんなものがあるのか
+- MlpPolicyとは
+- 参考文献の辞書的なやつの解析
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
 - [stable-baselines3のgithub](https://github.com/DLR-RM/stable-baselines3)
 - [stable-baselines3のチュートリアル](https://github.com/araffin/rl-tutorial-jnrr19)
 - [stable-baselines3のちゃんとした辞書的な](https://stable-baselines3.readthedocs.io/en/master/index.html)
-- 
 
 ## Reward
 | 学習回数 | 評価（モデルのプレイ回数）| Reward（平均報酬）|
