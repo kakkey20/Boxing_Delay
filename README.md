@@ -38,6 +38,8 @@ python boxingdqn.py
   - MlpPolicyとは
 - 参考文献の辞書的なやつの解析
 
+- DQNだとうまく動かないんご
+
 ## 次やること
 - Boxingの学習を行って、Tutorial1のように報酬の違いを確認してみる（下にRewardとあるのでそこに記載）　今やっている
 
@@ -48,8 +50,9 @@ python boxingdqn.py
 - [stable-baselines3のちゃんとした辞書的な](https://stable-baselines3.readthedocs.io/en/master/index.html)
 
 ## Reward
-| 学習回数 | 評価（モデルのプレイ回数）| std_reward +/- mean_reward|
-| ---- | ---- | ---- |
-| 1 | 1 | -43.00 +/- 0.00 |
-| 100 |10|~~~|
+|使用モデル|使用Policy| 学習回数 | 評価（モデルのプレイ回数）| std_reward +/- mean_reward|
+| ---- | ---- | ---- | ---- | ---- |
+| PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 |
+| PPO | MlpPolicy | 100 |10|~~~|
+| DQN | MlpPolicy | 100 |10|~~~|
 
