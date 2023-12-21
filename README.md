@@ -41,6 +41,14 @@ python boxingdqn.py
 ## 次やること
 - チュートリアル2の詳細な解析
 
+## チュートリアルから読み取れるBoxingAIに必要な機能
+- Tutorial1
+  - モデル選び（PPOやれDQNやら、ポリシーやら）
+  - evaluate関数（どうやってモデルを評価するか）
+  - Video関数（録画方法、一旦放置いずれやる）
+- Tutorial2
+  - 
+
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
 - [stable-baselines3のgithub](https://github.com/DLR-RM/stable-baselines3)
