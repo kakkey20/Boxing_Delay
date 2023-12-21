@@ -34,7 +34,7 @@ python boxingdqn.py
 - チュートリアル1コードの詳細な解析
   - evaluate_policyというライブラリの解析
   - std_reward, mean_rewardとは
-  - modelはPPO以外にどんなものがあるのか
+  - modelはPPO以外にどんなものがあるのか → 辞書に全部あるでーーー
   - MlpPolicyとは
 - 参考文献の辞書的なやつの解析
 
