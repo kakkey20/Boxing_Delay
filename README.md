@@ -43,15 +43,6 @@ python boxingdqn.py
 - [stable-baselines3のちゃんとした辞書的な](https://stable-baselines3.readthedocs.io/en/master/index.html)
 - 
 
-## Tutorial
-- Tutorial1
-  -- CartPoleの学習コード
-  
-- Tutorial2
-  -- ああああ
-
-
-
 ## Reward
 | 学習回数 | 評価（モデルのプレイ回数）| Reward（平均報酬）|
 | ---- | ---- | ---- |
