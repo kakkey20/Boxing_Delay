@@ -42,8 +42,11 @@ python boxingdqn.py
 
 ## 次やること
 - DQNがなんか動かないから、なんとかしてーなー（PPOだと動く）　→　色んなパターンを試してみる
+
+
 - evaluateを用いて、observation, rewardの解析を行う
 - 学習中に、ノートPCで遅延をどう入れるかを考えてみる
+- 先生に少し相談
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
