@@ -56,6 +56,7 @@ python boxingdqn.py
 | ---- | ---- | ---- | ---- | ---- |
 | PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 |
 | PPO | MlpPolicy | 1000 |10|-35.41 +/- 7.27|
+| PPO | MlpPolicy | 100000 |10|-57.50 +/- 4.56|
 | DQN | MlpPolicy | 100 |10|~~~|
 
 ## 遅延を入れるうえで必要なこと
