@@ -66,16 +66,7 @@ python boxingdqn.py
 |使用モデル|使用Policy| 学習回数 | 評価（モデルのプレイ回数）| mean_reward +/- std_reward|
 | ---- | ---- | ---- | ---- | ---- |
 | PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 |
-| PPO | MlpPolicy | 100 |100|-60.16 +/- 8.75|
-| PPO | CnnPolicy | 100 |100|-25 +/- 0|
-| PPO | MultiInputPolicy | 100 |100|??? +/- ???|
-
-| PPO | MlpPolicy | 1000 |10|-35.41 +/- 7.27|
-
-| PPO | MlpPolicy | 100000 |10|-57.50 +/- 4.56|
-| PPO | MlpPolicy | 100000 |100|-32.95 +/- 5.69|
-| PPO | CnnPolicy | 100000 |100|-80.06 +/- 12.50|
-| A2C | MlpPolicy | 100000 |100|-39.70 +/- 0.52|
+| A2C | MlpPolicy | 100 | 10 | -43.00 +/- 0.00 |
 
 ## 遅延を入れるうえで必要なこと
 - 学習の対戦相手は誰なのか
@@ -100,3 +91,15 @@ python boxingdqn.py
   - コールバック3（トレーニングの進捗具合、1秒あたりのタイムステップ数、学習の残り時間）→ いるかも ProgressBarCallback
   - コールバック4（最適なモデルを自動保存 and 進捗具合とエピソード報酬の表示）→ いるかも
 - Tutorial5 → 新しい環境（env）を作って、stablebaselineを使えるようにする的なやつ、いらないです
+
+##  ミスした可能性のあるやーつ
+| PPO | MlpPolicy | 100 |100|-60.16 +/- 8.75|
+| PPO | CnnPolicy | 100 |100|-25 +/- 0|
+| PPO | MultiInputPolicy | 100 |100|??? +/- ???|
+
+| PPO | MlpPolicy | 1000 |10|-35.41 +/- 7.27|
+
+| PPO | MlpPolicy | 100000 |10|-57.50 +/- 4.56|
+| PPO | MlpPolicy | 100000 |100|-32.95 +/- 5.69|
+| PPO | CnnPolicy | 100000 |100|-80.06 +/- 12.50|
+| A2C | MlpPolicy | 100000 |100|-39.70 +/- 0.52|
