@@ -28,6 +28,7 @@ python boxingdqn.py
 - （仮）のboxing.pyを作った
 - 使用可能なモデルの整理を行った
 - GPU使えてないことが判明
+- 
 
 ## 現状
 - どうやって遅延を入れるかわからん
@@ -61,19 +62,18 @@ python boxingdqn.py
 - SAC（行動空間がDiscreteじゃないから）
 - TD3（行動空間がDiscreteじゃないから）
 
-
 ## Reward
 |使用モデル|使用Policy| 学習回数 | 評価（モデルのプレイ回数）| mean_reward +/- std_reward|
 | ---- | ---- | ---- | ---- | ---- |
 | PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 |
 | A2C | MlpPolicy | 100 | 10 | -30.00 +/- 0.00 |
+| A2C | MlpPolicy | 10000 | 10 | -41.00 |
 
 ## 遅延を入れるうえで必要なこと
 - 学習の対戦相手は誰なのか
 - observation, reward等の解析 → evaluateで行けるんじゃね
 - mean_rewardや、std_rewardがどうなれば良いのか
 - ?フレーム遅らせた位置情報をどうやって、envに渡すかどうかの方法
-- 
 
 ## チュートリアルから読み取れるBoxingAIに必要な機能
 - Tutorial1
