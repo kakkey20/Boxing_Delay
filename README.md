@@ -46,27 +46,6 @@ python boxingdqn.py
   - コールバック2の問題解決
 - DQNがなんか動かないから、なんとかしてーなー（PPOだと動く）　→　色んなパターンを試してみる
 
-
-
-## チュートリアルから読み取れるBoxingAIに必要な機能
-- Tutorial4
-  - ハイパーパラメータの調整（実際にはやってないが、少し詳細あり）
-  - コールバック1（悪い学習をしないように、セーブ機能をつけれる）→ いらないかも SaveOnBestTrainingrewardCallback
-  - コールバック2（パフォーマンスのリアルタイムプロット）→ いるかも PlottingCallback
-  - コールバック3（トレーニングの進捗具合、1秒あたりのタイムステップ数、学習の残り時間）→ いるかも ProgressBarCallback
-  - コールバック4（最適なモデルを自動保存 and 進捗具合とエピソード報酬の表示）→ いるかも
-
-
-- Tutorial1
-  - モデル選び（PPOやれDQNやら、ポリシーやら）
-  - evaluate関数（どうやってモデルを評価するか）
-  - Video関数（録画方法、一旦放置いずれやる）
-- Tutorial2
-  - モデルの保存方法、ロード方法
-  - カスタム環境ラッパーの作成（行動の正規化や、時間制限機能の追加） → これを利用して遅延を入れることができるかも
-- Tutorial3　→　マルチプロセス関連なのでとりあえず必要なし
-- Tutorial5 → 新しい環境（env）を作って、stablebaselineを使えるようにする的なやつ、いらないです
-
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
 - [stable-baselines3のgithub](https://github.com/DLR-RM/stable-baselines3)
@@ -79,4 +58,23 @@ python boxingdqn.py
 | PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 |
 | PPO | MlpPolicy | 100 |10|~~~|
 | DQN | MlpPolicy | 100 |10|~~~|
+
+## チュートリアルから読み取れるBoxingAIに必要な機能
+- Tutorial1
+  - モデル選び（PPOやれDQNやら、ポリシーやら）
+  - evaluate関数（どうやってモデルを評価するか）
+  - Video関数（録画方法、一旦放置いずれやる）
+- Tutorial2
+  - モデルの保存方法、ロード方法
+  - カスタム環境ラッパーの作成（行動の正規化や、時間制限機能の追加） → これを利用して遅延を入れることができるかも
+- Tutorial3　→　マルチプロセス関連なのでとりあえず必要なし
+- Tutorial4
+  - ハイパーパラメータの調整（実際にはやってないが、少し詳細あり）
+  - コールバック1（悪い学習をしないように、セーブ機能をつけれる）→ いらないかも SaveOnBestTrainingrewardCallback
+  - コールバック2（パフォーマンスのリアルタイムプロット）→ いるかも PlottingCallback
+  - コールバック3（トレーニングの進捗具合、1秒あたりのタイムステップ数、学習の残り時間）→ いるかも ProgressBarCallback
+  - コールバック4（最適なモデルを自動保存 and 進捗具合とエピソード報酬の表示）→ いるかも
+- Tutorial5 → 新しい環境（env）を作って、stablebaselineを使えるようにする的なやつ、いらないです
+
+
 
