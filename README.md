@@ -58,6 +58,9 @@ python boxingdqn.py
 | PPO | MlpPolicy | 1000 |10|-35.41 +/- 7.27|
 | PPO | MlpPolicy | 100000 |10|-57.50 +/- 4.56|
 | PPO | MlpPolicy | 100000 |100|-32.95 +/- 5.69|
+| A2C | MlpPolicy | 100000 |100|??? +/- ???|
+| SAC | MlpPolicy | 100000 |100|??? +/- ???|
+| TD3 | MlpPolicy | 100000 |100|??? +/- ???|
 
 ## 遅延を入れるうえで必要なこと
 - 学習の対戦相手は誰なのか
