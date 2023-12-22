@@ -54,6 +54,12 @@ python boxingdqn.py
 - [stable-baselines3のチュートリアル](https://github.com/araffin/rl-tutorial-jnrr19)
 - [stable-baselines3のちゃんとした辞書的な](https://stable-baselines3.readthedocs.io/en/master/index.html)
 
+## 使用可能モデル
+- PPO
+- A2C
+- SAC
+
+
 ## Reward
 |使用モデル|使用Policy| 学習回数 | 評価（モデルのプレイ回数）| mean_reward +/- std_reward|
 | ---- | ---- | ---- | ---- | ---- |
@@ -62,8 +68,6 @@ python boxingdqn.py
 | PPO | MlpPolicy | 100000 |10|-57.50 +/- 4.56|
 | PPO | MlpPolicy | 100000 |100|-32.95 +/- 5.69|
 | A2C | MlpPolicy | 100000 |100|-39.70 +/- 0.52|
-| SAC | MlpPolicy | 100000 |100|??? +/- ???|
-| TD3 | MlpPolicy | 100000 |100|??? +/- ???|
 
 ## 遅延を入れるうえで必要なこと
 - 学習の対戦相手は誰なのか
