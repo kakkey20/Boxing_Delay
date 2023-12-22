@@ -61,7 +61,7 @@ python boxingdqn.py
 | PPO | MlpPolicy | 1000 |10|-35.41 +/- 7.27|
 | PPO | MlpPolicy | 100000 |10|-57.50 +/- 4.56|
 | PPO | MlpPolicy | 100000 |100|-32.95 +/- 5.69|
-| A2C | MlpPolicy | 100000 |100|??? +/- ???|
+| A2C | MlpPolicy | 100000 |100|-39.70 +/- 0.52|
 | SAC | MlpPolicy | 100000 |100|??? +/- ???|
 | TD3 | MlpPolicy | 100000 |100|??? +/- ???|
 
