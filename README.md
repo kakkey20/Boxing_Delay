@@ -63,11 +63,12 @@ python boxingdqn.py
 - TD3（行動空間がDiscreteじゃないから）
 
 ## Reward
-|使用モデル|使用Policy| 学習回数 | 評価（モデルのプレイ回数）| mean_reward +/- std_reward|
-| ---- | ---- | ---- | ---- | ---- |
-| PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 |
-| A2C | MlpPolicy | 100 | 10 | -30.00 +/- 0.00 |
-| A2C | MlpPolicy | 10000 | 10 | -41.00 |
+|使用モデル|使用Policy| 学習回数 | 評価（モデルのプレイ回数）| mean_reward +/- std_reward| cpu or gpu|
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 | cpu |
+| A2C | MlpPolicy | 100 | 10 | -30.00 +/- 0.00 | cpu |
+| A2C | MlpPolicy | 10000 | 10 | -41.00 | cpu |
+| A2C | CnnPolicy | 10000 | 10 | -41.00 | cpu |
 
 ## 遅延を入れるうえで必要なこと
 - 学習の対戦相手は誰なのか
