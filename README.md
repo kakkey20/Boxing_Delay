@@ -65,6 +65,7 @@ python boxingdqn.py
 |使用モデル|使用Policy| 学習回数 | 評価（モデルのプレイ回数）| mean_reward +/- std_reward|
 | ---- | ---- | ---- | ---- | ---- |
 | PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 |
+| PPO | MlpPolicy | 100 |100|-60.16 +/- 8.75|
 | PPO | MlpPolicy | 1000 |10|-35.41 +/- 7.27|
 | PPO | MlpPolicy | 100000 |10|-57.50 +/- 4.56|
 | PPO | MlpPolicy | 100000 |100|-32.95 +/- 5.69|
