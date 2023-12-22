@@ -67,9 +67,14 @@ python boxingdqn.py
 | ---- | ---- | ---- | ---- | ---- |
 | PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 |
 | PPO | MlpPolicy | 100 |100|-60.16 +/- 8.75|
+| PPO | CnnPolicy | 100 |100|-25 +/- 0|
+| PPO | MultiInputPolicy | 100 |100|??? +/- ???|
+
 | PPO | MlpPolicy | 1000 |10|-35.41 +/- 7.27|
+
 | PPO | MlpPolicy | 100000 |10|-57.50 +/- 4.56|
 | PPO | MlpPolicy | 100000 |100|-32.95 +/- 5.69|
+| PPO | CnnPolicy | 100000 |100|-80.06 +/- 12.50|
 | A2C | MlpPolicy | 100000 |100|-39.70 +/- 0.52|
 
 ## 遅延を入れるうえで必要なこと
