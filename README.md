@@ -57,7 +57,11 @@ python boxingdqn.py
 ## 使用可能モデル
 - PPO
 - A2C
-- SAC
+
+## 使用不可能モデル
+- DQN（メモリが足りない）
+- SAC（行動空間がDiscreteじゃないから）
+- TD3（行動空間がDiscreteじゃないから）
 
 
 ## Reward
