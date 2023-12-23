@@ -41,11 +41,11 @@ python boxingdqn.py
 - Modelの動画保存方法（なくてもいいからいったん放置）
 - Gpu使えるようにする
 - ハイパーパラメータの調整（一旦放置）
-- 学習中に、ノートPCで遅延をどう入れるかを考えてみる
 - 自分のx座標、y座標、敵のx座標、y座標がわかるかどうか
 
 ## 次やること
-- gpu使えるようにする
+- gpu使えるようにする → Nvidia Dockerの設定（月曜日）
+- 
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
