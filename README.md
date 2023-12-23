@@ -45,7 +45,7 @@ python boxingdqn.py
 
 ## 次やること
 - gpu使えるようにする → Nvidia Dockerの設定（月曜日）
-- 
+- modelのメソッドの分析
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
