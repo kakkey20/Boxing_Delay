@@ -45,6 +45,7 @@ python boxingdqn.py
 
 ## 次やること
 - gpu使えるようにする → Nvidia Dockerの設定（月曜日）
+- 環境にどのような情報があるか（進捗報告用に）
 - modelのメソッドの分析
 
 ## 参考文献
