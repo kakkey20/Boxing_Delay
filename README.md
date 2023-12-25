@@ -69,6 +69,7 @@ python boxingdqn.py
 | A2C | MlpPolicy | 100 | 10 | -30.00 +/- 0.00 | cpu |
 | A2C | MlpPolicy | 10000 | 10 | -41.00 | cpu |
 | A2C | CnnPolicy | 10000 | 10 | -41.00 | cpu |
+| PPO | CnnPolicy | 10000 | 10 | -3.5 | cpu |
 
 ## 遅延を入れるうえで必要なこと
 - 学習の対戦相手は誰なのか
