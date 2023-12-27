@@ -78,7 +78,7 @@ python boxingdqn.py
 | DQN | MultiInputPolicy |
 
 ## Reward
-|使用モデル|使用Policy| 学習回数(step) | 評価のプレイ回数）| mean_reward +/- std_reward| cpu or gpu| 遅延 |
+|使用モデル|使用Policy| 学習回数(step) | 評価のプレイ回数| mean_reward +/- std_reward| cpu or gpu| 遅延 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ----|
 | PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 | cpu | なし |
 | A2C | MlpPolicy | 100 | 10 | -30.00 +/- 0.00 | cpu | なし |
