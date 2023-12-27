@@ -73,6 +73,9 @@ python boxingdqn.py
 | A2C | MlpPolicy |
 | A2C | CnnPolicy |
 | A2C | MultiInputPolicy |
+| DQN | MlpPolicy |
+| DQN | CnnPolicy |
+| DQN | MultiInputPolicy |
 
 ## Reward
 |使用モデル|使用Policy| 学習回数 | 評価（モデルのプレイ回数）| mean_reward +/- std_reward| cpu or gpu|
