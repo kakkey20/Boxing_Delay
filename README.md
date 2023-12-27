@@ -78,14 +78,14 @@ python boxingdqn.py
 | DQN | MultiInputPolicy |
 
 ## Reward
-|使用モデル|使用Policy| 学習回数 | 評価（モデルのプレイ回数）| mean_reward +/- std_reward| cpu or gpu|
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 | cpu |
-| A2C | MlpPolicy | 100 | 10 | -30.00 +/- 0.00 | cpu |
-| A2C | MlpPolicy | 10000 | 10 | -41.00 | cpu |
-| A2C | CnnPolicy | 10000 | 10 | -41.00 | cpu |
-| PPO | CnnPolicy | 10000 | 10 | -3.5 | cpu |
-| PPO | CnnPolicy | 1000000 | 100 | -0.97 | cpu |
+|使用モデル|使用Policy| 学習回数 | 評価（モデルのプレイ回数）| mean_reward +/- std_reward| cpu or gpu| 遅延 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ----|
+| PPO | MlpPolicy | 1 | 1 | -43.00 +/- 0.00 | cpu | なし |
+| A2C | MlpPolicy | 100 | 10 | -30.00 +/- 0.00 | cpu | なし |
+| A2C | MlpPolicy | 10000 | 10 | -41.00 | cpu | なし |
+| A2C | CnnPolicy | 10000 | 10 | -41.00 | cpu | なし |
+| PPO | CnnPolicy | 10000 | 10 | -3.5 | cpu | なし |
+| PPO | CnnPolicy | 1000000 | 100 | -0.97 | cpu | なし |
 
 ## 遅延を入れるうえで必要なこと
 - 学習の対戦相手は誰なのか
