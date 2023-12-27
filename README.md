@@ -64,6 +64,16 @@ python boxingdqn.py
 - SAC（行動空間がDiscreteじゃないから）
 - TD3（行動空間がDiscreteじゃないから）
 
+## モデル
+|使用モデル|使用Policy|
+| ---- | ---- |
+| PPO | MlpPolicy |
+| PPO | CnnPolicy |
+| PPO | MultiInputPolicy |
+| A2C | MlpPolicy |
+| A2C | CnnPolicy |
+| A2C | MultiInputPolicy |
+
 ## Reward
 |使用モデル|使用Policy| 学習回数 | 評価（モデルのプレイ回数）| mean_reward +/- std_reward| cpu or gpu|
 | ---- | ---- | ---- | ---- | ---- | ---- |
