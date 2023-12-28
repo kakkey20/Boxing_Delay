@@ -31,12 +31,6 @@ python boxingdqn.py
 - 学習回数 → step数しか不可能であった
 - Pettingzooというものを見つけた
 
-## 現状
-- どうやって遅延を入れるかわからん
-- 人間がプレイできるかどうかわからん（一旦放置）
-- Boxingで、最適なモデルってどれやろう（PPO or A2C、Policyはどれなのか）
-- そも学習がうまく行ってない気がする
-
 ## やることリスト
 - Gpu使えるようにする → Nvidia Dockerの設定
 - 人間とプレイ可能にする → PettingZooの設定
@@ -44,9 +38,7 @@ python boxingdqn.py
 - 難易度設定方法
 
 ## 次やること
-- 環境にどのような情報があるか（進捗報告用に）→ modelのコード確認しながら
-　　→　action, rewared, obs
-- Rewardをもう少し用意して、スライドに追加する（進捗報告ように）
+- Gpu使えるようにする → 学習を進める
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
