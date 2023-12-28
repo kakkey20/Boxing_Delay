@@ -46,6 +46,9 @@ python boxingdqn.py
 - [stable-baselines3のgithub](https://github.com/DLR-RM/stable-baselines3)
 - [stable-baselines3のチュートリアル](https://github.com/araffin/rl-tutorial-jnrr19)
 - [stable-baselines3のちゃんとした辞書的な](https://stable-baselines3.readthedocs.io/en/master/index.html)
+- [Envについて](https://gymnasium.farama.org/api/env/)
+- [Pettingzoo.github](https://github.com/Farama-Foundation/PettingZoo)
+- [Pettingzoo チュートリアル1](https://note.com/npaka/n/n9b9074b8f916)
 
 ## 使用可能モデル
 - PPO
