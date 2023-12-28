@@ -51,6 +51,7 @@ python boxingdqn.py
 - [Pettingzoo チュートリアル1](https://note.com/npaka/n/n9b9074b8f916)
 - [Pettingzoo Documentation](https://pettingzoo.farama.org/index.html)
 - [GPU1](https://zenn.dev/danchinocto/scraps/da90c7e70ec77d)
+- [GPU2](https://stable-baselines3.readthedocs.io/en/master/guide/install.html)
 
 ## 使用可能モデル
 - PPO
