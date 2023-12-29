@@ -28,10 +28,9 @@ poetry run pip install --find-links dist/ --no-cache-dir AutoROM[accept-rom-lice
 poetry run python multi.py 
 ```
 
-
 ## 学習方法
 ```
-python boxingdqn.py
+python boxingdelay.py
 ```
 
 ## 今までのあらすじ
@@ -46,14 +45,17 @@ python boxingdqn.py
 - 学習回数 → step数しか不可能であった
 - Pettingzooというものを見つけた
 - Gpu使えるようにした
+- pettingzooのチュートリアルを行った
 
 ## やることリスト
-- 人間とプレイ可能にする → PettingZooの設定
-- 対戦相手の設定 → PettingZooの設定
+- pettingzooや学習コード等を、githubのコード一覧に追加する
+- githubに、作成したモデルをgithubに追加する
+- 任意の対戦相手と対戦できるコード作成
+- 人間とプレイ可能にするコードの作成
 - 難易度設定方法
 
 ## 次やること
-- PettingZooをなんとかする
+- 任意の対戦相手と対戦できるコード作成
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
