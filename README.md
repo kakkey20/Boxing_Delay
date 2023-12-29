@@ -14,6 +14,14 @@ pip install gymnasium[atari] → atariのインストール、ゲームによっ
 pip install gymnasium[accept-rom-license] → romのインストール
 ```
 
+## その他のインストール
+```
+pip install pettingzoo
+pip install gymnasium[atari] → atariのインストール、ゲームによっては[box2D]等
+pip install gymnasium[accept-rom-license] → romのインストール
+```
+
+
 ## 学習方法
 ```
 python boxingdqn.py
