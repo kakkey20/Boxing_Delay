@@ -30,9 +30,9 @@ python boxingdqn.py
 - GPU使えてないことが判明
 - 学習回数 → step数しか不可能であった
 - Pettingzooというものを見つけた
+- Gpu使えるようにした
 
 ## やることリスト
-- Gpu使えるようにする → Nvidia Dockerの設定
 - 人間とプレイ可能にする → PettingZooの設定
 - 対戦相手の設定 → PettingZooの設定
 - 難易度設定方法
