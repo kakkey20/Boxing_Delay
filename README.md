@@ -84,6 +84,8 @@ python boxingdqn.py
 | A2C | CnnPolicy | 10000 | 10 | -41.00 | cpu | なし |
 | PPO | CnnPolicy | 10000 | 10 | -3.5 | cpu | なし |
 | PPO | CnnPolicy | 1000000 | 100 | -0.97 | cpu | なし |
+| A2C | CnnPolicy | 1000000 | 100 | -100 | cpu | あり（10F） |
+
 
 ## 遅延を入れるうえで必要なこと
 - 学習の対戦相手は誰なのか
