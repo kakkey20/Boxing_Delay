@@ -36,10 +36,9 @@ python boxingdqn.py
 - 人間とプレイ可能にする → PettingZooの設定
 - 対戦相手の設定 → PettingZooの設定
 - 難易度設定方法
-- 資料持って変える
 
 ## 次やること
-- Gpu使えるようにする → 学習を進める
+- PettingZooをなんとかする
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
