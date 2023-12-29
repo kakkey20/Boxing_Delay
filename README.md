@@ -46,10 +46,9 @@ python boxingdelay.py
 - Pettingzooというものを見つけた
 - Gpu使えるようにした
 - pettingzooのチュートリアルを行った
+- モデルはGoogleドライブで共有することにした
 
 ## やることリスト
-- pettingzooや学習コード等を、githubのコード一覧に追加する
-- githubに、作成したモデルをgithubに追加する
 - 任意の対戦相手と対戦できるコード作成
 - 人間とプレイ可能にするコードの作成
 - 難易度設定方法
