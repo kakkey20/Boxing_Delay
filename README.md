@@ -22,8 +22,8 @@ poetry run pip install pettingzoo[atari]
 poetry run pip install stable-baseline3[extra]
 poetry run pip install autorom
 poetry run pip install autorom[accept-rom-license]
-AutoROM
-AutoROM --install-dir /path/to/install
+poetry run AutoROM
+poetry run AutoROM --install-dir /path/to/install
 poetry run pip install --find-links dist/ --no-cache-dir AutoROM[accept-rom-license]
 poetry run python multi.py 
 ```
