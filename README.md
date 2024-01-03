@@ -100,6 +100,7 @@ python boxingdelay.py
 | PPO | CnnPolicy | 10000 | 10 | -3.5 | cpu | なし |
 | PPO | CnnPolicy | 1000000 | 100 | -0.97 | cpu | なし |
 | A2C | CnnPolicy | 1000000 | 100 | -100 | cpu | あり（10F） |
+| A2C | CnnPolicy | 1000000 | 100 | -0.95 | gpu | あり（0F） |
 | A2C | CnnPolicy | 1000000 | 100 | -1.29 | gpu | あり（3F） |
 
 
