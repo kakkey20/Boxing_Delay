@@ -47,6 +47,7 @@ python boxingdelay.py
 - Gpu使えるようにした
 - pettingzooのチュートリアルを行った
 - モデルはGoogleドライブで共有することにした
+- Gymnasiumのモデルが、Peggingzooでロードすることができない
 
 ## やることリスト
 - 任意の対戦相手と対戦できるコード作成
@@ -54,7 +55,7 @@ python boxingdelay.py
 - 難易度設定方法
 
 ## 次やること
-- 任意の対戦相手と対戦できるコード作成
+- Gymnasiumのモデルが、Peggingzooでロードすることができないので、格闘する
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
