@@ -54,7 +54,7 @@ python boxingdelay.py
 - 人間とプレイ可能にするコードの作成
 
 ## 今後の予定
-1. WindowsでPoetry環境を作成する　→　無理だた！！2をLinuxでまず頑張る
+1. WindowsでPoetry環境を作成する　→　無理だた（Cmakeがうまくいかない）、2をLinuxでまず頑張る
 2. Pettingzooで、遅延付き学習コードを作成する
 3. 対戦相手の指定ができるコードを作成する
 4. 人間と対戦できるコードを作成する
