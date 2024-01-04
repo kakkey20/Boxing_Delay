@@ -50,12 +50,13 @@ python boxingdelay.py
 - Gymnasiumのモデルが、Peggingzooでロードすることができない
 
 ## やることリスト
-- 任意の対戦相手と対戦できるコード作成
-- 人間とプレイ可能にするコードの作成
+- BOxingの学習コードに使えそうなサイト、コード等をPettingzoo Documentationから見つける
+- 見つけて、Windowsとlinuxで同時並行で行う。どっちでも学習が可能かどうかを調べる。
+- Windowsで可能な場合進捗報告までに、デスクトップPCで学習できるところまで行いたい。
 
 ## 今後の予定
 1. WindowsでPoetry環境を作成する　→　無理だた（Cmakeがうまくいかない）、2をLinuxでまず頑張る
-2. Pettingzooで、遅延付き学習コードを作成する
+2. Pettingzooで、Boxingの遅延付き学習コードを作成する
 3. 対戦相手の指定ができるコードを作成する
 4. 人間と対戦できるコードを作成する
 5. 
@@ -138,14 +139,3 @@ python boxingdelay.py
   - コールバック4（最適なモデルを自動保存 and 進捗具合とエピソード報酬の表示）→ いるかも
 - Tutorial5 → 新しい環境（env）を作って、stablebaselineを使えるようにする的なやつ、いらないです
 
-##  ミスした可能性のあるやーつ
-| PPO | MlpPolicy | 100 |100|-60.16 +/- 8.75|
-| PPO | CnnPolicy | 100 |100|-25 +/- 0|
-| PPO | MultiInputPolicy | 100 |100|??? +/- ???|
-
-| PPO | MlpPolicy | 1000 |10|-35.41 +/- 7.27|
-
-| PPO | MlpPolicy | 100000 |10|-57.50 +/- 4.56|
-| PPO | MlpPolicy | 100000 |100|-32.95 +/- 5.69|
-| PPO | CnnPolicy | 100000 |100|-80.06 +/- 12.50|
-| A2C | MlpPolicy | 100000 |100|-39.70 +/- 0.52|
