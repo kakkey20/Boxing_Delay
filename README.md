@@ -112,6 +112,7 @@ python boxingdelay.py
 | A2C | CnnPolicy | 1000000 | 100 | -100 | cpu | あり（10F） |
 | A2C | CnnPolicy | 1000000 | 100 | -0.95 | gpu | あり（0F） |
 | A2C | CnnPolicy | 1000000 | 100 | -1.29 | gpu | あり（3F） |
+| A2C | CnnPolicy | 1000000 | 100 | -3.97 | gpu | あり（7F） |
 
 
 ## 遅延を入れるうえで必要なこと
