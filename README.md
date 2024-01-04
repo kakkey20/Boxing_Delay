@@ -19,7 +19,7 @@ pip install gymnasium[accept-rom-license] → romのインストール
 pyenv local 3.9.16
 poetry env use 3.9.16
 poetry run pip install pettingzoo[atari]
-poetry run pip install stable-baseline3[extra]
+poetry run pip install stable-baselines3[extra]
 poetry run pip install autorom
 poetry run pip install autorom[accept-rom-license]
 poetry run AutoROM
