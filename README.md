@@ -56,6 +56,7 @@ python boxingdelay.py
 
 ## 次やること
 - Gymnasiumのモデルが、Peggingzooでロードすることができないので、格闘する
+- Gymnasiumと、pegginzooの違い（envやその他）を確認し、以下に記載する
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
