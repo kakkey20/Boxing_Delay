@@ -54,6 +54,9 @@ python boxingdelay.py
 - 人間とプレイ可能にするコードの作成
 - 難易度設定方法
 
+## 今後の予定
+1. あああ
+
 ## 次やること
 - Gymnasiumのモデルが、Peggingzooでロードすることができないので、格闘する
 - Gymnasiumと、pegginzooの違い（envやその他）を確認し、以下に記載する
