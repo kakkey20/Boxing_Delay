@@ -54,6 +54,9 @@ python boxingdelay.py
 - 見つけて、Windowsとlinuxで同時並行で行う。どっちでも学習が可能かどうかを調べる。
 - Windowsで可能な場合進捗報告までに、デスクトップPCで学習できるところまで行いたい。
 
+## Pettingzooで使えそうな機能
+- delay_observations_v0(env, delay)(https://pettingzoo.farama.org/api/wrappers/supersuit_wrappers/)
+
 ## 今後の予定
 1. WindowsでPoetry環境を作成する　→　無理だた（Cmakeがうまくいかない）、2をLinuxでまず頑張る
 2. Pettingzooで、Boxingの遅延付き学習コードを作成する
