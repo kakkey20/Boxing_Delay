@@ -138,13 +138,13 @@ python boxingdelay.py
 | A2C | CnnPolicy | 1000000 | 100 | -3.97 | gpu | あり（7F） |
 
 ## Reward
-|使用モデル|使用Policy| 学習回数(step) | 評価のプレイ回数| mean_reward| cpu or gpu| 遅延 |
-| ---- | ---- | ---- | ---- | ---- | ---- | ----|
-| PPO | CnnPolicy | 1000000 | 100 | -0.97 | cpu | なし |
-| A2C | CnnPolicy | 1000000 | 100 | -0.95 | gpu | あり（0F） |
-| A2C | CnnPolicy | 1000000 | 100 | -1.29 | gpu | あり（3F） |
-| A2C | CnnPolicy | 1000000 | 100 | -3.97 | gpu | あり（7F） |
-| A2C | CnnPolicy | 1000000 | 100 | -100 | cpu | あり（10F） |
+|使用モデル|使用Policy| 学習回数(step) | mean_reward| cpu or gpu| 遅延 |
+| ---- | ---- | ---- | ---- | ---- | ----|
+| PPO | CnnPolicy | 1000000  | -0.97 | cpu | なし |
+| A2C | CnnPolicy | 1000000  | -0.95 | gpu | あり（0F） |
+| A2C | CnnPolicy | 1000000  | -1.29 | gpu | あり（3F） |
+| A2C | CnnPolicy | 1000000  | -3.97 | gpu | あり（7F） |
+| A2C | CnnPolicy | 1000000  | -100 | cpu | あり（10F） |
 
 
 ## 遅延を入れるうえで必要なこと
