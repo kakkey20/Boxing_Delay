@@ -138,7 +138,7 @@ python boxingdelay.py
 | A2C | CnnPolicy | 1000000 | 100 | -3.97 | gpu | あり（7F） |
 
 ## Reward
-|使用モデル|使用Policy| 学習回数(step) | 評価のプレイ回数| mean_reward +/- std_reward| cpu or gpu| 遅延 |
+|使用モデル|使用Policy| 学習回数(step) | 評価のプレイ回数| mean_reward| cpu or gpu| 遅延 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ----|
 | PPO | CnnPolicy | 1000000 | 100 | -0.97 | cpu | なし |
 | A2C | CnnPolicy | 1000000 | 100 | -0.95 | gpu | あり（0F） |
