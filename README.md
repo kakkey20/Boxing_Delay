@@ -67,6 +67,7 @@ python boxingdelay.py
 
 ## Pettingzooで使えそうな機能
 - delay_observations_v0(env, delay)(https://pettingzoo.farama.org/api/wrappers/supersuit_wrappers/)
+- AgileRL(DQNの学習、セーブ、ロードが可能）→(https://pettingzoo.farama.org/tutorials/agilerl/DQN/)
 
 ## 今後の予定
 1. WindowsでPoetry環境を作成する　→　無理だた（Cmake、multialeagent.pyがうまくいかない）、2をLinuxでまず頑張る
@@ -78,6 +79,13 @@ python boxingdelay.py
 ## 次やること
 - Gymnasiumのモデルが、Peggingzooでロードすることができないので、格闘する
 - Gymnasiumと、pegginzooの違い（envやその他）を確認し、以下に記載する
+
+## 現状の学習パラメータ一覧
+- env-id→boxing_v2
+- total-timesteps→12000
+- learning-rate→2.5e-4
+- --num-envs
+- --num-steps
 
 ## 参考文献
 - [深層強化学習のパッケージ調査](https://qiita.com/s-inoue-git/items/edafea0bca155ce1e7a6)
