@@ -49,6 +49,16 @@ python boxingdelay.py
 - モデルはGoogleドライブで共有することにした
 - Gymnasiumのモデルが、Pettingzooでロードすることができない
 - Pettingzooで学習を行うには、stable-baselines3を使用することができない（envが違うから）
+- Pettingzooで学習をすること自体はできたので、いくつか必要な機能を調べる
+
+## Pettingzooで入れなければならない機能
+- モデルのセーブ
+- モデルのロード
+- 行動遅延の実装
+- gpuでやるべきかどうか
+- どうやって強くなったと判断するか
+- 対戦相手の指定コード
+- 
 
 ## やることリスト
 - BOxingの学習コードに使えそうなサイト、コード等をPettingzoo Documentationから見つける
@@ -59,7 +69,7 @@ python boxingdelay.py
 - delay_observations_v0(env, delay)(https://pettingzoo.farama.org/api/wrappers/supersuit_wrappers/)
 
 ## 今後の予定
-1. WindowsでPoetry環境を作成する　→　無理だた（Cmakeがうまくいかない）、2をLinuxでまず頑張る
+1. WindowsでPoetry環境を作成する　→　無理だた（Cmake、multialeagent.pyがうまくいかない）、2をLinuxでまず頑張る
 2. Pettingzooで、Boxingの遅延付き学習コードを作成する
 3. 対戦相手の指定ができるコードを作成する
 4. 人間と対戦できるコードを作成する
