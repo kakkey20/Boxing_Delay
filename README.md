@@ -47,7 +47,8 @@ python boxingdelay.py
 - Gpu使えるようにした
 - pettingzooのチュートリアルを行った
 - モデルはGoogleドライブで共有することにした
-- Gymnasiumのモデルが、Peggingzooでロードすることができない
+- Gymnasiumのモデルが、Pettingzooでロードすることができない
+- Pettingzooで学習を行うには、stable-baselines3を使用することができない（envが違うから）
 
 ## やることリスト
 - BOxingの学習コードに使えそうなサイト、コード等をPettingzoo Documentationから見つける
