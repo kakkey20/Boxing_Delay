@@ -29,6 +29,11 @@ Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調�
 ### 作成後、例えば0フレームのモデルが3フレームの環境だと報酬がどう変わるかなどの実験を行う
 - モデル作成後相談（今は考えなくて良い）
 
+## 修論
+- A2CやPPO
+- Boxing
+- 
+
 
 ## Reward
 |使用モデル|使用Policy| 学習回数(step) | mean_reward| cpu or gpu| 遅延 |
