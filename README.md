@@ -15,6 +15,7 @@ Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調�
 - A2C or PPO
 - CnnPolicy or Mlppolicy
 - 学習回数（step）
+- 学習方法
 - ハイパーパラメータ（learningn_rate等）
   
 ### 上を確認後、同じ条件を下に0-10フレームのモデルを作成する
