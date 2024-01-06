@@ -23,12 +23,6 @@ Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調�
 ### 作成後、例えば0フレームのモデルが3フレームの環境だと報酬がどう変わるかなどの実験を行う
 - モデル作成後相談（今は考えなくて良い）
 
-## 今後の予定
-1. WindowsでPoetry環境を作成する　→　無理だた（Cmake、multialeagent.pyがうまくいかない）、2をLinuxでまず頑張る
-2. Pettingzooで、Boxingの遅延付き学習コードを作成する
-3. 対戦相手の指定ができるコードを作成する
-4. 人間と対戦できるコードを作成する
-5. 
 
 ## Reward
 |使用モデル|使用Policy| 学習回数(step) | mean_reward| cpu or gpu| 遅延 |
