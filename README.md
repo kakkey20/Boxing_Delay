@@ -1,36 +1,17 @@
 # Boxing_Delay
 Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調整ができるか検証する
 
-## 今までのあらすじ
-- stable-baselines3というものを見つけた
-- チュートリアルのコードをまとめた
-- チュートリアルの解析を行った
-- 参考文献の辞書的なやつを見た
-- モデルの保存、ロードができた
-- （仮）のboxing.pyを作った
-- 使用可能なモデルの整理を行った
-- GPU使えてないことが判明
-- 学習回数 → step数しか不可能であった
-- Pettingzooというものを見つけた
-- Gpu使えるようにした
-- pettingzooのチュートリアルを行った
-- モデルはGoogleドライブで共有することにした
-- Gymnasiumのモデルが、Pettingzooでロードすることができない
-- Pettingzooで学習を行うには、stable-baselines3を使用することができない（envが違うから）
-- Pettingzooで学習をすること自体はできたので、いくつか必要な機能を調べる
+## 方向性1（Pettingzooで、行動遅延を入れた上で対戦相手を指定した学習が行えること）
+### モデルのロード
+- コード記載
+### モデルのセーブ
+- コード記載
+### 行動遅延の実装
+- コード記載
+### 対戦相手の指定コード
+- コード記載
 
-## Pettingzooで入れなければならない機能
-- モデルのセーブ
-- モデルのロード
-- 行動遅延の実装
-- gpuでやるべきかどうか
-- どうやって強くなったと判断するか
-- 対戦相手の指定コード
-- 
-
-## Pettingzooで使えそうな機能
-- delay_observations_v0(env, delay)(https://pettingzoo.farama.org/api/wrappers/supersuit_wrappers/)
-- AgileRL(DQNの学習、セーブ、ロードが可能）→(https://pettingzoo.farama.org/tutorials/agilerl/DQN/)
+## 方向性2 
 
 ## 今後の予定
 1. WindowsでPoetry環境を作成する　→　無理だた（Cmake、multialeagent.pyがうまくいかない）、2をLinuxでまず頑張る
@@ -59,4 +40,23 @@ Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調�
 | A2C | CnnPolicy | 1000000  | -1.29 | gpu | あり（3F） |
 | A2C | CnnPolicy | 1000000  | -3.97 | gpu | あり（7F） |
 | A2C | CnnPolicy | 1000000  | -100 | cpu | あり（10F） |
+
+## 今までのあらすじ
+- stable-baselines3というものを見つけた
+- チュートリアルのコードをまとめた
+- チュートリアルの解析を行った
+- 参考文献の辞書的なやつを見た
+- モデルの保存、ロードができた
+- （仮）のboxing.pyを作った
+- 使用可能なモデルの整理を行った
+- GPU使えてないことが判明
+- 学習回数 → step数しか不可能であった
+- Pettingzooというものを見つけた
+- Gpu使えるようにした
+- pettingzooのチュートリアルを行った
+- モデルはGoogleドライブで共有することにした
+- Gymnasiumのモデルが、Pettingzooでロードすることができない
+- Pettingzooで学習を行うには、stable-baselines3を使用することができない（envが違うから）
+- Pettingzooで学習をすること自体はできたので、いくつか必要な機能を調べる
+
 
