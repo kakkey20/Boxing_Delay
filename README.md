@@ -60,7 +60,5 @@ Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調�
 - [Pettingzoo チュートリアル1](https://note.com/npaka/n/n9b9074b8f916)
 - [Pettingzoo チュートリアル2](https://note.com/npaka/n/n06d8ba36d5bc)
 - [Pettingzoo Documentation](https://pettingzoo.farama.org/index.html)
-- [GPU1](https://zenn.dev/danchinocto/scraps/da90c7e70ec77d)
-- [GPU2](https://stable-baselines3.readthedocs.io/en/master/guide/install.html)
 
 
