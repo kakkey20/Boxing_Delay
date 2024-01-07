@@ -1,10 +1,14 @@
 # Boxing_Delay
 Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調整ができるか検証する
 
+## 次やること
+- AgileRLにて、モデルのセーブ&ロード機能を探す
+
 ## 方向性1（Pettingzooで、行動遅延を入れた上で対戦相手を指定した学習が行えること）
 - 1月20日頃を目処に成果を生み出したい。方向性2をマシンで動かしつつ、ノートpcで以下を行う。
 - Pettingzooのチュートリアル(AgileRLなど）があるので、参考にしながらコードを書いていく
 ### モデルのセーブ&ロード
+
 ### 行動遅延の実装
 ### 対戦相手の指定コード
 - モデルを読み込み、自分と対戦相手の行動を両方取得し、対戦させることができる
@@ -70,5 +74,7 @@ Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調�
 - [Pettingzoo チュートリアル1](https://note.com/npaka/n/n9b9074b8f916)
 - [Pettingzoo チュートリアル2](https://note.com/npaka/n/n06d8ba36d5bc)
 - [Pettingzoo Documentation](https://pettingzoo.farama.org/index.html)
+- [Pettingzoo Boxing](https://pettingzoo.farama.org/index.html)
+- [Pettingzoo Boxing](https://pettingzoo.farama.org/index.html)
 
 
