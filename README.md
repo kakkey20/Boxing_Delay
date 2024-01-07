@@ -76,5 +76,6 @@ Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調�
 - [Pettingzoo Documentation](https://pettingzoo.farama.org/index.html)
 - [Pettingzoo Boxing](https://pettingzoo.farama.org/index.html)
 - [Pettingzoo AgileRL](https://pettingzoo.farama.org/tutorials/agilerl/)
-
+- [Pettingzoo supersuit](https://pettingzoo.farama.org/api/wrappers/supersuit_wrappers/#supersuit-wrappers
+)
 
