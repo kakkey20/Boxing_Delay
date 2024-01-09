@@ -4,6 +4,7 @@ Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調�
 ## Agileでやること
 - 対戦でどういうデータ（報酬など）を得られるか
 - 対戦コードをバチコリ解析
+- episodicrecord, firstrecord, secondrecord
 
 ## 次やること
 - Agileで、行動遅延を行う
