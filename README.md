@@ -3,7 +3,7 @@ Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調�
 
 ## やることリスト
 - Wrapperで、行動遅延を取得
-- Tianshouで、対戦相手の取得
+- Tianshou or LangChainで、対戦相手の取得
 
 ## Agileでやること
 - 対戦でどういうデータ（報酬など）を得られるか
@@ -11,7 +11,7 @@ Open AI GymのBoxingにおいて、AIに遅延を与えることで難易度調�
 - episodicrecord, firstrecord, secondrecord
 
 ## 次やること
-- Agileで、行動遅延を行う
+- Tianshouで実装
 
 
 ## 1月20日までに
@@ -87,11 +87,9 @@ RLibの方が簡単ではありそう、下2つが可能かどうかを明日模
 - Pettingzooで学習をすること自体はできたので、いくつか必要な機能を調べる
 
 ## 参考文献
-- [Pettingzoo.github](https://github.com/Farama-Foundation/PettingZoo)
-- [Pettingzoo チュートリアル1](https://note.com/npaka/n/n9b9074b8f916)
-- [Pettingzoo チュートリアル2](https://note.com/npaka/n/n06d8ba36d5bc)
 - [Pettingzoo Documentation](https://pettingzoo.farama.org/index.html)
 - [Pettingzoo Boxing](https://pettingzoo.farama.org/environments/atari/boxing/#boxing)
+- [Pettingzoo wrappers](https://pettingzoo.farama.org/api/wrappers/)
 - [Pettingzoo AgileRL](https://pettingzoo.farama.org/tutorials/agilerl/)
 - [Pettingzoo supersuit](https://pettingzoo.farama.org/api/wrappers/supersuit_wrappers/#supersuit-wrappers
 )
