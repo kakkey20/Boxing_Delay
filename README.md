@@ -87,7 +87,7 @@ RLibの方が簡単ではありそう、下2つが可能かどうかを明日模
 - [Pettingzoo チュートリアル1](https://note.com/npaka/n/n9b9074b8f916)
 - [Pettingzoo チュートリアル2](https://note.com/npaka/n/n06d8ba36d5bc)
 - [Pettingzoo Documentation](https://pettingzoo.farama.org/index.html)
-- [Pettingzoo Boxing](https://pettingzoo.farama.org/index.html)
+- [Pettingzoo Boxing](https://pettingzoo.farama.org/environments/atari/boxing/#boxing)
 - [Pettingzoo AgileRL](https://pettingzoo.farama.org/tutorials/agilerl/)
 - [Pettingzoo supersuit](https://pettingzoo.farama.org/api/wrappers/supersuit_wrappers/#supersuit-wrappers
 )
