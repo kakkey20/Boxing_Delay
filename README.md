@@ -51,10 +51,10 @@ RLibの方が簡単ではありそう、下2つが可能かどうかを明日模
 |使用モデル|使用Policy| 学習回数(step) | mean_reward| cpu or gpu| 遅延 |
 | ---- | ---- | ---- | ---- | ---- | ----|
 | PPO | CnnPolicy | 1000000  | -0.97 | cpu | なし |
-| A2C | CnnPolicy | 3000000  | ??? | gpu | あり（0F） |
 | A2C | CnnPolicy | 1000000  | ??? | gpu | あり（0F） | イマココ
 | A2C | CnnPolicy | 1000000  | ??? | gpu | あり（0F） |
 | A2C | CnnPolicy | 1000000  | -0.95 | gpu | あり（0F） |
+| A2C | CnnPolicy | 3000000  | -3.57 | gpu | あり（0F） |
 | A2C | CnnPolicy | 1000000  | -1.29 | gpu | あり（3F） |
 | A2C | CnnPolicy | 1000000  | -3.97 | gpu | あり（7F） |
 | A2C | CnnPolicy | 1000000  | -100 | cpu | あり（10F） |
